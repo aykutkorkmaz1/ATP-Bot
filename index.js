@@ -289,7 +289,7 @@ bot.command('perfler', (ctx) => {
 bot.action('tarihShow', (ctx) => {
     var subject = `
     Son Tarih: 15 Mayıs
-    Toprak Ana kitabını oku ve savaşın karakterler üzerindeki etkisini anlat. En az 2 sayfa ve Word.`;
+    Önceden okuduğunuz bir kitabın özetini çıkar. En az 2 sayfa ve Word.`;
     ctx.deleteMessage();
     ctx.telegram.sendMessage(ctx.chat.id, subject, 
         {
