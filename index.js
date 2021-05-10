@@ -1,5 +1,13 @@
 const { Telegraf, Context } = require('telegraf');
 const bot = new Telegraf('1864811805:AAF3PGMvV2H9LgMrnw1WKXc9EYVR5ZyLRAg')
+const express = require('express')
+const app = express()
+ 
+app.get('/', function (req, res) {
+  res.send('Bot still running.')
+})
+ 
+app.listen(process.env.PORT || 5000);
 
 bot.start((ctx) => {ctx.reply('Welcome!')});
 bot.help((ctx) => {ctx.reply('Help')});
