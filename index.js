@@ -16,7 +16,7 @@ bot.settings((ctx) => {ctx.reply('Settings')});
 bot.hears('sa', (ctx) => {ctx.reply(ctx.from.first_name + ', Aleyküm Selam Müslüman Kardeşim' )});
 
 bot.hears('iyi bayramlar', (ctx) => {
-    ctx.reply('Eyw aslanım, seninde mübarek olsun' + ctx.from.first_name +'.');
+    ctx.reply('Eyw aslanım, seninde mübarek olsun ' + ctx.from.first_name +'.');
 });
 
 
