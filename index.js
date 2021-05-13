@@ -19,6 +19,10 @@ bot.hears('iyi bayramlar', (ctx) => {
     ctx.reply('Eyw aslanım, seninde mübarek olsun ' + ctx.from.first_name +'.');
 });
 
+bot.hears('good bot', (ctx) => {
+    ctx.reply('eyvallah canım ' + ctx.from.first_name + ' ( ˘ ³˘)♥️');
+});
+
 
 bot.command('ataturk', (ctx) => {
     ctx.telegram.sendMessage(ctx.chat.id, `
