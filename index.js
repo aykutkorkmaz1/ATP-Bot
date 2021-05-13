@@ -15,6 +15,10 @@ bot.settings((ctx) => {ctx.reply('Settings')});
 
 bot.hears('sa', (ctx) => {ctx.reply(ctx.from.first_name + ', Aleyküm Selam Müslüman Kardeşim' )});
 
+bot.hears('iyi bayramlar', (ctx) => {
+    ctx.telegram.sendMessage('Eyw aslanım, seninde mübarek olsun' + ctx.from.first_name +'.');
+});
+
 
 bot.command('ataturk', (ctx) => {
     ctx.telegram.sendMessage(ctx.chat.id, `
