@@ -29,7 +29,8 @@ bot.hears('bad bot', (ctx) => {
 
 bot.hears('hayırlı cumalar', (ctx) => {
     ctx.reply(`
-Nefsin huzur ve irfanla dolsun  Düşmanlarının gülleri solsun 
+Nefsin huzur ve irfanla dolsun  
+Düşmanlarının gülleri solsun 
 Seni sevenler altın bulsun 
 Münafıklar saçını başını yolsun       
 Kalp gözün ibret içinde boğulsun 
