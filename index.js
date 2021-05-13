@@ -27,6 +27,26 @@ bot.hears('bad bot', (ctx) => {
     ctx.reply('kes lan amk çomar oç evladı ' + ctx.from.first_name + '.');
 });
 
+bot.hears('hayırlı cumalar', (ctx) => {
+    ctx.reply(`
+Nefsin huzur ve irfanla dolsun  Düşmanlarının gülleri solsun 
+Seni sevenler altın bulsun 
+Münafıklar saçını başını yolsun       
+Kalp gözün ibret içinde boğulsun 
+Sen çok sevgili bir kulsun 
+Zalimlere giren bir kolsun 
+Biz de yuvarlanıp gidiyoruz ne olsun
+
+Cumanız mübarek olsun ATP Halkı.
+    `);
+});
+
+
+
+
+
+
+
 
 bot.command('ataturk', (ctx) => {
     ctx.telegram.sendMessage(ctx.chat.id, `
