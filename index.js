@@ -23,6 +23,10 @@ bot.hears('good bot', (ctx) => {
     ctx.reply('eyvallah canım ' + ctx.from.first_name + ' ( ˘ ³˘)♥️');
 });
 
+bot.hears('bad bot', (ctx) => {
+    ctx.reply('kes lan amk çomar oç evladı ' + ctx.from.first_name + '.');
+});
+
 
 bot.command('ataturk', (ctx) => {
     ctx.telegram.sendMessage(ctx.chat.id, `
