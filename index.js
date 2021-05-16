@@ -122,9 +122,9 @@ bot.command('kurallar', (ctx) => {
 Dine/inanca küfür yasak. (3 GÜN BAN)
 Atatürk'e hakaret yasak. (1 YIL BAN)
 Kadın hariç +18 içerik yasak. (3 GÜN BAN)
-Pedofili savunmak ve sevmek yasak. (3 GÜN BAN)
+Pedofili savunmak ve sevmek yasak. (5 GÜN BAN)
 Spam bokunu çıkarmayın. (1 GÜN BAN)
-Ana bacı sülale küfür yasak (3 GÜN BAN)
+Ana bacı sülale küfür yasak (1 GÜN BAN)
     `);
 })
 
