@@ -31,10 +31,10 @@ bot.hears('Good bot', (ctx) => {
 });
 
 bot.hears('bad bot', (ctx) => {
-    ctx.reply('kes lan amk çomar oç evladı ' + ctx.from.first_name + '.');
+    ctx.reply('ananin daminda hafriyat calismasi yapayim ' + ctx.from.first_name + '.');
 });
 bot.hears('Bad bot', (ctx) => {
-    ctx.reply('kes lan amk çomar oç evladı ' + ctx.from.first_name + '.');
+    ctx.reply('ananin daminda hafriyat calismasi yapayim ' + ctx.from.first_name + '.');
 });
 
 bot.hears('hayırlı cumalar', (ctx) => {
