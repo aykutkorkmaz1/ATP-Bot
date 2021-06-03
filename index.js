@@ -43,7 +43,7 @@ Cumanız mübarek olsun ATP Halkı.
 });
 
 bot.hears('iyi geceler', (ctx) => {
-    ctx.reply(`iyi geceler` + ctx.from.first_name)
+    ctx.reply(ctx.from.first_name + ` iyi geceler bebeğim 💋`)
 })
 
 
