@@ -14,16 +14,26 @@ bot.help((ctx) => {ctx.reply('Help')});
 bot.settings((ctx) => {ctx.reply('Settings')});
 
 bot.hears('sa', (ctx) => {ctx.reply(ctx.from.first_name + ', Aleyküm Selam Müslüman Kardeşim' )});
+bot.hears('Sa', (ctx) => {ctx.reply(ctx.from.first_name + ', Aleyküm Selam Müslüman Kardeşim' )});
 
 bot.hears('iyi bayramlar', (ctx) => {
+    ctx.reply('Eyw aslanım, seninde mübarek olsun ' + ctx.from.first_name +'.');
+});
+bot.hears('İyi bayramlar', (ctx) => {
     ctx.reply('Eyw aslanım, seninde mübarek olsun ' + ctx.from.first_name +'.');
 });
 
 bot.hears('good bot', (ctx) => {
     ctx.reply('eyvallah canım ' + ctx.from.first_name + ' ( ˘ ³˘)♥️');
 });
+bot.hears('Good bot', (ctx) => {
+    ctx.reply('eyvallah canım ' + ctx.from.first_name + ' ( ˘ ³˘)♥️');
+});
 
 bot.hears('bad bot', (ctx) => {
+    ctx.reply('kes lan amk çomar oç evladı ' + ctx.from.first_name + '.');
+});
+bot.hears('Bad bot', (ctx) => {
     ctx.reply('kes lan amk çomar oç evladı ' + ctx.from.first_name + '.');
 });
 
@@ -41,10 +51,34 @@ Biz de yuvarlanıp gidiyoruz ne olsun
 Cumanız mübarek olsun ATP Halkı.
     `);
 });
+bot.hears('Hayırlı cumalar', (ctx) => {
+    ctx.reply(`
+Nefsin huzur ve irfanla dolsun  
+Düşmanlarının gülleri solsun 
+Seni sevenler altın bulsun 
+Münafıklar saçını başını yolsun       
+Kalp gözün ibret içinde boğulsun 
+Sen çok sevgili bir kulsun 
+Zalimlere giren bir kolsun 
+Biz de yuvarlanıp gidiyoruz ne olsun
+
+Cumanız mübarek olsun ATP Halkı.
+    `);
+});
 
 bot.hears('iyi geceler', (ctx) => {
     ctx.reply(ctx.from.first_name + ` iyi geceler bebeğim 💋`)
-})
+});
+bot.hears('İyi geceler', (ctx) => {
+    ctx.reply(ctx.from.first_name + ` iyi geceler bebeğim 💋`)
+});
+
+bot.hears('günaydın', (ctx) => {
+    ctx.reply(ctx.from.first_name + ` Günaydın ☀️`)
+});
+bot.hears('Günaydın', (ctx) => {
+    ctx.reply(ctx.from.first_name + ` Günaydın ☀️`)
+});
 
 
 
