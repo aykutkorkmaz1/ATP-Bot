@@ -74,10 +74,11 @@ bot.hears('İyi geceler', (ctx) => {
 });
 
 bot.hears('günaydın', (ctx) => {
-    ctx.reply(ctx.from.first_name + ` Günaydın ☀️`)
+    ctx.reply(ctx.from.first_name + ` Müslüman arkadaşlarıma selamünaleyküm. Deist arkadaşlarıma tanrının rahmeti üzerinize olsun. Ateist arkadaşlarıma iyi günler. Diğer dinlere mensup arkadaşlarıma mutlu günler. Atatürk düşmanı arkadaşlar sizinde tüm sülalenizi sikeyim. Günaydın
+ `)
 });
 bot.hears('Günaydın', (ctx) => {
-    ctx.reply(ctx.from.first_name + ` Günaydın ☀️`)
+    ctx.reply(ctx.from.first_name + ` Müslüman arkadaşlarıma selamünaleyküm. Deist arkadaşlarıma tanrının rahmeti üzerinize olsun. Ateist arkadaşlarıma iyi günler. Diğer dinlere mensup arkadaşlarıma mutlu günler. Atatürk düşmanı arkadaşlar sizinde tüm sülalenizi sikeyim. Günaydın `)
 });
 
 
