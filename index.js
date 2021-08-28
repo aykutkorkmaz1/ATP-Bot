@@ -4,10 +4,28 @@ const express = require('express')
 const app = express()
  
 app.get('/', function (req, res) {
-  res.send('Bot still running.')
+  res.send('ATP Bot is online, no error and malfunction.')
 })
  
 app.listen(process.env.PORT || 5000);
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyBz_sbTM3juo1dTJHNGjiLhx0rQRMRXsOo",
+  authDomain: "atp-bot-f0a79.firebaseapp.com",
+  projectId: "atp-bot-f0a79",
+  storageBucket: "atp-bot-f0a79.appspot.com",
+  messagingSenderId: "671800803779",
+  appId: "1:671800803779:web:80cab64bd14ff91a37fd76"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 
 bot.start((ctx) => {ctx.reply('Welcome!')});
 bot.help((ctx) => {ctx.reply('Help')});
